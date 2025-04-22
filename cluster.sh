@@ -48,7 +48,7 @@ sleep 10
 echo "=============================================================================="
 echo "[+] Copying instance.sh to VM..."
 echo "=============================================================================="
-gcloud compute scp ./instannce.sh $username@my-vm:/home/$username --zone=$zone --quiet
+gcloud compute scp ./instance.sh $username@my-vm:/home/$username --zone=$zone --quiet
 
 echo "=============================================================================="
 echo "[+] Creating GKE cluster in the background..."
